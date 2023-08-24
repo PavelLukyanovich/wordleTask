@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67612029-cde9-4adb-93ce-3c5d038bd4ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Colors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WordleGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WordleGameTest.java" afterDir="false" />
+    <list default="true" id="67612029-cde9-4adb-93ce-3c5d038bd4ec" name="Changes" comment="feat: implementation showResultColorArray method/ add tests">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WordleGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordleGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WordleGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WordleGameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="PavelLukyanovich" />
+        <option name="repository" value="wordleTask" />
+      </RepoCoordinatesHolder>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -46,12 +55,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/Programming/Java/Lessons",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -62,7 +74,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordleGame">
+  <component name="RunManager" selected="JUnit.WordleGameTest">
     <configuration name="WordleGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WordleGame" />
       <module name="wordleTask" />
@@ -79,11 +91,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordleGameTest.whenInputStringHasDifferentFirstCharacterAndThisCharacterContainsInSecretString_resultArrayHasYellowFirstElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WordleGameTest.test_wordle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wordleTask" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WordleGameTest" />
-      <option name="METHOD_NAME" value="whenInputStringHasDifferentFirstCharacterAndThisCharacterContainsInSecretString_resultArrayHasYellowFirstElement" />
+      <option name="METHOD_NAME" value="test_wordle(java.lang.String,java.lang.String,[LColor;)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordleGame" />
         <item itemvalue="JUnit.WordleGameTest" />
+        <item itemvalue="Application.WordleGame" />
+        <item itemvalue="JUnit.WordleGameTest.test_wordle" />
         <item itemvalue="JUnit.WordleGameTest.whenInputStringLengthNotFive_shouldThrowIllegalArgumentException" />
         <item itemvalue="JUnit.WordleGameTest.whenInputStringHasNoSameCharacters_resultColorArrayShouldBeGray" />
-        <item itemvalue="JUnit.WordleGameTest.whenInputStringHasDifferentFirstCharacterAndThisCharacterContainsInSecretString_resultArrayHasYellowFirstElement" />
       </list>
     </recent_temporary>
   </component>
@@ -127,8 +139,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692805298057</updated>
-      <workItem from="1692805299553" duration="3892000" />
+      <workItem from="1692805299553" duration="6404000" />
+      <workItem from="1692861199796" duration="8771000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: implementation showResultColorArray method/ add tests">
+      <created>1692819033609</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692819033609</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,5 +165,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: implementation showResultColorArray method/ add tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementation showResultColorArray method/ add tests" />
   </component>
 </project>
